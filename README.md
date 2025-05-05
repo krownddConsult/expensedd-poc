@@ -25,7 +25,7 @@ Expensedd is a smart receipt management app designed for Apple users. This is th
 ```
 
 ## 🔗 Live Preview (Example)
-Coming soon at: `https://yourusername.github.io/expensedd-poc`
+Coming soon at: `https://krownddConsult.github.io/expensedd-poc`
 
 ---
 
