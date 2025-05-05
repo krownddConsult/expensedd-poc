@@ -1,0 +1,113 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Expensedd - Snap. Track. Relax.</title>
+  <style>
+    body {
+      margin: 0;
+      background: #0a0a0a;
+      font-family: Arial, sans-serif;
+      color: white;
+    }
+    header, section {
+      padding: 40px 20px;
+      text-align: center;
+    }
+    h1, h2 {
+      margin-bottom: 10px;
+    }
+    .cta {
+      margin-top: 20px;
+      padding: 10px 30px;
+      background: #ff6f00;
+      color: white;
+      border: none;
+      font-size: 1rem;
+      cursor: pointer;
+      border-radius: 5px;
+    }
+    .features, .gallery {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 20px;
+      padding: 20px;
+    }
+    .feature-box {
+      background: #1a1a1a;
+      padding: 20px;
+      border-radius: 10px;
+      width: 250px;
+      text-align: left;
+    }
+    img.preview {
+      max-width: 200px;
+      border-radius: 10px;
+    }
+    form {
+      margin-top: 20px;
+    }
+    input[type="email"] {
+      padding: 10px;
+      width: 250px;
+      border-radius: 5px;
+      border: none;
+    }
+    input[type="submit"] {
+      padding: 10px 20px;
+      background: #ff6f00;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      margin-left: 10px;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Expensedd</h1>
+    <p>Snap. Track. Relax.</p>
+    <button class="cta">Join the Waitlist</button>
+  </header>
+
+  <section>
+    <h2>How It Works</h2>
+    <div class="features">
+      <div class="feature-box">
+        <h3>Snap</h3>
+        <p>Take a quick photo of your receipt using your iPhone.</p>
+      </div>
+      <div class="feature-box">
+        <h3>Scan</h3>
+        <p>Our OCR reads and extracts merchant, amount, VAT, and more.</p>
+      </div>
+      <div class="feature-box">
+        <h3>Track</h3>
+        <p>Auto-categorize and view detailed monthly reports on your spend.</p>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Preview the App</h2>
+    <div class="gallery">
+      <img src="A_digital_wireframe_showcases_a_receipt_scanning_a.png" class="preview" alt="Scan Receipt" />
+      <img src="A_digital_screenshot_displays_a_mobile_application.png" class="preview" alt="Dashboard" />
+      <img src="A_digital_screenshot_of_a_mobile_application_scree.png" class="preview" alt="Receipt Detail" />
+      <img src="A_wireframe_design_of_a_mobile_application_named_E.png" class="preview" alt="Export Screen" />
+    </div>
+  </section>
+
+  <section>
+    <h2>Be First to Try It</h2>
+    <form action="#" method="POST">
+      <input type="email" name="email" placeholder="Enter your email" required />
+      <input type="submit" value="Notify Me" />
+    </form>
+  </section>
+</body>
+</html>
